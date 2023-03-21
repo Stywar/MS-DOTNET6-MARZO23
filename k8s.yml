@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service-aforo255
-        image: antony0618/servicenet6:latest
+        image: antony0618/dotnet6v3
         ports:
         - containerPort: 80 #change port value 8080 on microservice development
         imagePullPolicy: Always
