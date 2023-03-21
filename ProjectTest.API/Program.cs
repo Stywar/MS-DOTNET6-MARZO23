@@ -11,7 +11,7 @@ var app = builder.Build();
 app.MapGet("/", () =>
 {
     app.Logger.LogInformation("Initial Home Get");
-    return "GET - Net 6 Running ... 150320233 JENKINS v1.0.0 AFORO255";
+    return "GET - Net 6 Running ... 20032023 FRANCO VARGAS CHINO v1.0.0 AFORO255";
 });
 
 app.MapPost("/", () =>
